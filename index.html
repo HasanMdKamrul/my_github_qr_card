@@ -7,18 +7,18 @@
     <title>My GitHub QR Card</title>
     <link rel="stylesheet" href="./output/tailwind.css" />
   </head>
-  <body class="h-screen bg-gray-200 flex justify-center items-center">
+  <body class="h-screen bg-gray-200 flex justify-center items-center dark:bg-gray-900">
     <!-- ** Main Card Section ** -->
-    <div class="max-w-sm bg-white px-10 py-6 border-4 rounded-2xl drop-shadow-2xl mx-auto sm:flex sm:items-center justify-center sm:px-6 sm:py-0">
+    <div class="max-w-sm bg-white px-10 py-6 border-2 rounded-3xl drop-shadow-2xl mx-auto sm:flex sm:items-center justify-center sm:px-6 sm:py-0 dark:bg-gray-500 dark:hover:bg-yellow-500">
       <!-- **Images Section ** -->
       <div class="p-4 mx-auto transform hover:scale-105 duration-500">
-        <img class=" ring-offset-2 ring-2 ring-green-200" src="./image/qrcode_github.com_1_327x327_1_163x163.png" alt="Github QR Code">
+        <img class=" ring-offset-2 ring-2 ring-gray-700 dark:ring-black dark:ring-offset-black" src="./image/qrcode_github.com_1_327x327_1_163x163.png" alt="Github QR Code">
       </div>
       <!-- **Text and Button Section ** -->
-      <div class="mx-auto text-center italic text-lg p-4 space-y-2 sm:text-left">
-        <p class=" transform duration-700 hover:scale-105">Md Kamrul Hasan</p>
-        <p id="scane" class=" transform duration-700 hover:scale-105">Scanning....</p>
-        <button onclick="myFunction()" class="bg-blue-500 border rounded-full px-8 py-2 mb-2 text-white sm:px-2 sm:py-2 sm:rounded-2xl sm:mt-4 sm:mx-0 transform duration-700 hover:scale-105 hover:bg-blue-900">Visit Me!</button>
+      <div class="mx-auto text-center italic text-lg p-4 space-y-2 sm:text-left dark:text-white transform ">
+        <p class=" transform duration-700 hover:scale-110 dark:hover:text-black">Md Kamrul Hasan</p>
+        <p id="scane" class=" transform duration-700 hover:scale-110 dark:hover:text-black">Scanning....</p>
+        <button onclick="myFunction()" class="bg-blue-500 border rounded-full px-8 py-2 mb-2 text-white sm:px-4 sm:py-2 sm:rounded-2xl sm:mt-4 sm:mx-0 transform duration-700 hover:scale-105 hover:bg-blue-900 dark:hover:text-black dark:hover:bg-yellow-200">Visit Me!</button>
       </div>
       <script src="./JS/main.js"></script>
     </div>
