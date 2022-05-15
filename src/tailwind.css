@@ -1,3 +1,51 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* **Group Utilities */
+
+.btn{
+    @apply
+    border 
+    rounded-full 
+    px-4
+    py-2 
+    mb-2 
+    text-white;
+    
+   
+}
+
+.btn-media-sm{
+    @apply
+    sm:px-4 
+    sm:py-2
+    sm:rounded-2xl 
+    sm:mt-4 
+    sm:mx-0;
+}
+
+.btn-hover{
+    @apply
+    transform 
+    duration-700
+    hover:scale-105
+    dark:hover:text-black ;
+  
+
+}
+
+.btn-blue {
+    @apply
+    bg-blue-500 
+    hover:bg-blue-900 
+    dark:hover:bg-yellow-200;
+}
+
+.btn-green {
+    @apply
+    bg-green-500 
+    hover:bg-green-900 
+    dark:hover:bg-red-200;
+}
